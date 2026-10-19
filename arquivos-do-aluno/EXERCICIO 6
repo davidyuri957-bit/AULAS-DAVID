@@ -1,0 +1,20 @@
+let opcaoSelecionada = 0
+do {
+   console.log ("1. Novo Arquivo | 2. Editar | 3. Sair") 
+   if (opcaoSelecionada === 1){
+    console.log ("1. Novo arquivo ")
+   }
+
+   if  (opcaoSelecionada === 2) {
+    console.log ("2. editar")
+   }
+
+   if (opcaoSelecionada === 3 ){
+    console.log("3. sair")
+   }
+
+opcaoSelecionada++      
+opcaoSelecionada=3;
+
+
+} while (opcaoSelecionada !== 3)

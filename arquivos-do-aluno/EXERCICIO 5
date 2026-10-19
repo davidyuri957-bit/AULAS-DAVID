@@ -1,0 +1,9 @@
+let multiplicador = 7
+let iterador = 1
+
+do{ let resultado = multiplicador * iterador 
+ 
+    console.log (`${multiplicador} x ${iterador} = ${resultado}`)
+  iterador++
+}
+        while (iterador <= 10)

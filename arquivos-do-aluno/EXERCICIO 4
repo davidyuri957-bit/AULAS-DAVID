@@ -1,0 +1,12 @@
+let numero = 1
+let somaTotal = 0
+
+do {
+    somaTotal = somaTotal + numero
+
+
+numero++
+} while (numero <= 50)
+
+    console.log (`resultado ${somaTotal}`)
+    
